@@ -34,27 +34,25 @@ namespace ASI.Basecode.WebApp.Controllers
         /// Returns Home View.
         /// </summary>
         /// <returns> Home View </returns>
+
         [AllowAnonymous]
         public IActionResult Index()
         {
             return View();
 
         }
-
         [AllowAnonymous]
         public IActionResult Test()
         {
             return View();
         }
-
         [AllowAnonymous]
         public IActionResult Test2()
         {
             return View();
         }
-
         [AllowAnonymous]
-        public IActionResult Angelo()
+        public IActionResult Dianon_test()
         {
             return View();
         }
