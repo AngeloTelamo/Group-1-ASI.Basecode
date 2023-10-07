@@ -37,8 +37,6 @@ namespace ASI.Basecode.WebApp.Controllers
         /// </summary>
         /// <returns> Home View </returns>
         [AllowAnonymous]
-
-        [AllowAnonymous]
         public IActionResult Index()
         {
             return View();
@@ -48,6 +46,21 @@ namespace ASI.Basecode.WebApp.Controllers
         public IActionResult Paquibut()
         {
             return View();
-        }     
+        }
+        [AllowAnonymous]
+        public IActionResult Angelo()
+        {
+            return View();
+        }
+        [AllowAnonymous]
+        public IActionResult Daisy()
+        {
+            return View();
+        }
+        [AllowAnonymous]
+        public IActionResult Dianon_test()
+        {
+            return View();
+        }
     }
 }
