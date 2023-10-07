@@ -1,0 +1,38 @@
+ TASK INSTRUCTIONS:
+
+ You have been provided an incomplete code for a Console App that can calculate the area of three Shapes (Triange, Rectangle, Circle).
+ Complete the program by following the program flow below, you must modify the AreaCalculator.cs by adding code to the designated area. Please read the line comments carefully.
+ You are also expected to create Derived classes (Triangle, Square, Circle) of the BaseShape object so that you can use it to implement the BaseShape object's GetArea() method.
+ Add your derived classes to ShapeClasses folder.
+ 
+ 
+ == program flow ==
+
+1) prompt the user for the shape type.
+   1 = Triangle
+   2 = Rectangle
+   3 = Circle
+   *** if input is none of the above. 
+       print error message and prompt again.
+
+if shape is triangle / square
+   2a) prompt the user for the height. 
+   2b) prompt the user for the width.   
+             
+if shape is circle
+   2) Prompt the user for the radius.
+
+*** For step 2, input value(s) must be more than 0.
+    If not, display error message and prompt again.
+             
+3) print result. (this is already provided)
+
+
+
+Formulas:
+
+Triangle: Height * Width / 2
+Square: Height * Width
+Circle: (Radius * Radius) * 3.14
+
+
