@@ -62,5 +62,10 @@ namespace ASI.Basecode.WebApp.Controllers
         {
             return View();
         }
+        [AllowAnonymous]
+        public IActionResult Tecson()
+        {
+            return View();
+        }
     }
 }
