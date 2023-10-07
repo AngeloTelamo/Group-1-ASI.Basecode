@@ -21,6 +21,9 @@ namespace ASI.Basecode.WebApp.Controllers
         /// <param name="configuration"></param>
         /// <param name="localizer"></param>
         /// <param name="mapper"></param>
+        /// 
+
+
         public HomeController(IHttpContextAccessor httpContextAccessor,
                               ILoggerFactory loggerFactory,
                               IConfiguration configuration,
@@ -34,9 +37,12 @@ namespace ASI.Basecode.WebApp.Controllers
         /// </summary>
         /// <returns> Home View </returns>
         [AllowAnonymous]
+
+        [AllowAnonymous]
         public IActionResult Index()
         {
             return View();
+
         }
         [AllowAnonymous]
         public IActionResult Paquibut()
