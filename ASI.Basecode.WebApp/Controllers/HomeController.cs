@@ -21,7 +21,9 @@ namespace ASI.Basecode.WebApp.Controllers
         /// <param name="configuration"></param>
         /// <param name="localizer"></param>
         /// <param name="mapper"></param>
-     
+        /// 
+
+
         public HomeController(IHttpContextAccessor httpContextAccessor,
                               ILoggerFactory loggerFactory,
                               IConfiguration configuration,
@@ -41,18 +43,13 @@ namespace ASI.Basecode.WebApp.Controllers
             return View();
 
         }
-        [AllowAnonymous]
+
         public IActionResult Test()
         {
             return View();
         }
-        [AllowAnonymous]
+
         public IActionResult Test2()
-        {
-            return View();
-        }
-        [AllowAnonymous]
-        public IActionResult Dianon_test()
         {
             return View();
         }
